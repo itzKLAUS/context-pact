@@ -1,0 +1,811 @@
+{
+  "seed": 1031,
+  "cases": 100,
+  "strictImprovements": 65,
+  "meanUtilityGap": 5.15,
+  "medianMilliseconds": 1.252600000000001,
+  "p95Milliseconds": 2.1006,
+  "notes": "Synthetic 10-record cases, two supplied utility scenarios, UTF-8 byte budgets. Dependency-closed greedy density baseline. No model calls or reasoning-quality measurement.",
+  "results": [
+    {
+      "run": 0,
+      "exact": 71,
+      "greedy": 71,
+      "gap": 0,
+      "milliseconds": 4.1752,
+      "states": 1024
+    },
+    {
+      "run": 1,
+      "exact": 91,
+      "greedy": 81,
+      "gap": 10,
+      "milliseconds": 2.0717999999999996,
+      "states": 1024
+    },
+    {
+      "run": 2,
+      "exact": 113,
+      "greedy": 109,
+      "gap": 4,
+      "milliseconds": 1.2003000000000021,
+      "states": 1024
+    },
+    {
+      "run": 3,
+      "exact": 61,
+      "greedy": 61,
+      "gap": 0,
+      "milliseconds": 1.3979999999999961,
+      "states": 1024
+    },
+    {
+      "run": 4,
+      "exact": 85,
+      "greedy": 79,
+      "gap": 6,
+      "milliseconds": 1.2176999999999936,
+      "states": 1024
+    },
+    {
+      "run": 5,
+      "exact": 116,
+      "greedy": 98,
+      "gap": 18,
+      "milliseconds": 1.3785000000000025,
+      "states": 1024
+    },
+    {
+      "run": 6,
+      "exact": 67,
+      "greedy": 55,
+      "gap": 12,
+      "milliseconds": 1.9858000000000047,
+      "states": 1024
+    },
+    {
+      "run": 7,
+      "exact": 60,
+      "greedy": 60,
+      "gap": 0,
+      "milliseconds": 2.3881000000000014,
+      "states": 1024
+    },
+    {
+      "run": 8,
+      "exact": 53,
+      "greedy": 53,
+      "gap": 0,
+      "milliseconds": 1.2486999999999995,
+      "states": 1024
+    },
+    {
+      "run": 9,
+      "exact": 109,
+      "greedy": 97,
+      "gap": 12,
+      "milliseconds": 0.9253999999999962,
+      "states": 1024
+    },
+    {
+      "run": 10,
+      "exact": 105,
+      "greedy": 105,
+      "gap": 0,
+      "milliseconds": 1.4089000000000027,
+      "states": 1024
+    },
+    {
+      "run": 11,
+      "exact": 113,
+      "greedy": 94,
+      "gap": 19,
+      "milliseconds": 1.2282999999999973,
+      "states": 1024
+    },
+    {
+      "run": 12,
+      "exact": 67,
+      "greedy": 65,
+      "gap": 2,
+      "milliseconds": 1.4523999999999972,
+      "states": 1024
+    },
+    {
+      "run": 13,
+      "exact": 105,
+      "greedy": 102,
+      "gap": 3,
+      "milliseconds": 0.9462000000000046,
+      "states": 1024
+    },
+    {
+      "run": 14,
+      "exact": 93,
+      "greedy": 92,
+      "gap": 1,
+      "milliseconds": 1.2061000000000064,
+      "states": 1024
+    },
+    {
+      "run": 15,
+      "exact": 71,
+      "greedy": 67,
+      "gap": 4,
+      "milliseconds": 1.5922000000000054,
+      "states": 1024
+    },
+    {
+      "run": 16,
+      "exact": 86,
+      "greedy": 86,
+      "gap": 0,
+      "milliseconds": 1.2149999999999963,
+      "states": 1024
+    },
+    {
+      "run": 17,
+      "exact": 72,
+      "greedy": 72,
+      "gap": 0,
+      "milliseconds": 1.5646999999999949,
+      "states": 1024
+    },
+    {
+      "run": 18,
+      "exact": 113,
+      "greedy": 98,
+      "gap": 15,
+      "milliseconds": 1.1976999999999975,
+      "states": 1024
+    },
+    {
+      "run": 19,
+      "exact": 102,
+      "greedy": 96,
+      "gap": 6,
+      "milliseconds": 1.1724999999999994,
+      "states": 1024
+    },
+    {
+      "run": 20,
+      "exact": 72,
+      "greedy": 56,
+      "gap": 16,
+      "milliseconds": 1.5514999999999972,
+      "states": 1024
+    },
+    {
+      "run": 21,
+      "exact": 85,
+      "greedy": 85,
+      "gap": 0,
+      "milliseconds": 1.2154000000000025,
+      "states": 1024
+    },
+    {
+      "run": 22,
+      "exact": 90,
+      "greedy": 90,
+      "gap": 0,
+      "milliseconds": 0.9989999999999952,
+      "states": 1024
+    },
+    {
+      "run": 23,
+      "exact": 94,
+      "greedy": 88,
+      "gap": 6,
+      "milliseconds": 0.9762000000000057,
+      "states": 1024
+    },
+    {
+      "run": 24,
+      "exact": 108,
+      "greedy": 100,
+      "gap": 8,
+      "milliseconds": 0.8342999999999989,
+      "states": 1024
+    },
+    {
+      "run": 25,
+      "exact": 79,
+      "greedy": 68,
+      "gap": 11,
+      "milliseconds": 1.2000000000000028,
+      "states": 1024
+    },
+    {
+      "run": 26,
+      "exact": 76,
+      "greedy": 74,
+      "gap": 2,
+      "milliseconds": 2.2878000000000043,
+      "states": 1024
+    },
+    {
+      "run": 27,
+      "exact": 86,
+      "greedy": 83,
+      "gap": 3,
+      "milliseconds": 1.437899999999999,
+      "states": 1024
+    },
+    {
+      "run": 28,
+      "exact": 108,
+      "greedy": 105,
+      "gap": 3,
+      "milliseconds": 1.234499999999997,
+      "states": 1024
+    },
+    {
+      "run": 29,
+      "exact": 84,
+      "greedy": 83,
+      "gap": 1,
+      "milliseconds": 1.4054000000000002,
+      "states": 1024
+    },
+    {
+      "run": 30,
+      "exact": 118,
+      "greedy": 114,
+      "gap": 4,
+      "milliseconds": 0.8662000000000063,
+      "states": 1024
+    },
+    {
+      "run": 31,
+      "exact": 87,
+      "greedy": 72,
+      "gap": 15,
+      "milliseconds": 1.252600000000001,
+      "states": 1024
+    },
+    {
+      "run": 32,
+      "exact": 69,
+      "greedy": 64,
+      "gap": 5,
+      "milliseconds": 1.7562000000000069,
+      "states": 1024
+    },
+    {
+      "run": 33,
+      "exact": 106,
+      "greedy": 106,
+      "gap": 0,
+      "milliseconds": 0.8903000000000105,
+      "states": 1024
+    },
+    {
+      "run": 34,
+      "exact": 73,
+      "greedy": 68,
+      "gap": 5,
+      "milliseconds": 1.3288999999999902,
+      "states": 1024
+    },
+    {
+      "run": 35,
+      "exact": 59,
+      "greedy": 43,
+      "gap": 16,
+      "milliseconds": 1.6517999999999944,
+      "states": 1024
+    },
+    {
+      "run": 36,
+      "exact": 79,
+      "greedy": 79,
+      "gap": 0,
+      "milliseconds": 1.1306000000000012,
+      "states": 1024
+    },
+    {
+      "run": 37,
+      "exact": 68,
+      "greedy": 60,
+      "gap": 8,
+      "milliseconds": 1.8140000000000072,
+      "states": 1024
+    },
+    {
+      "run": 38,
+      "exact": 106,
+      "greedy": 97,
+      "gap": 9,
+      "milliseconds": 1.1099999999999994,
+      "states": 1024
+    },
+    {
+      "run": 39,
+      "exact": 88,
+      "greedy": 79,
+      "gap": 9,
+      "milliseconds": 0.8761999999999972,
+      "states": 1024
+    },
+    {
+      "run": 40,
+      "exact": 61,
+      "greedy": 61,
+      "gap": 0,
+      "milliseconds": 2.1006,
+      "states": 1024
+    },
+    {
+      "run": 41,
+      "exact": 88,
+      "greedy": 87,
+      "gap": 1,
+      "milliseconds": 1.5932999999999993,
+      "states": 1024
+    },
+    {
+      "run": 42,
+      "exact": 143,
+      "greedy": 124,
+      "gap": 19,
+      "milliseconds": 0.8747000000000043,
+      "states": 1024
+    },
+    {
+      "run": 43,
+      "exact": 139,
+      "greedy": 139,
+      "gap": 0,
+      "milliseconds": 0.8974000000000046,
+      "states": 1024
+    },
+    {
+      "run": 44,
+      "exact": 93,
+      "greedy": 87,
+      "gap": 6,
+      "milliseconds": 0.655699999999996,
+      "states": 1024
+    },
+    {
+      "run": 45,
+      "exact": 108,
+      "greedy": 108,
+      "gap": 0,
+      "milliseconds": 1.1842000000000041,
+      "states": 1024
+    },
+    {
+      "run": 46,
+      "exact": 68,
+      "greedy": 54,
+      "gap": 14,
+      "milliseconds": 1.2468999999999966,
+      "states": 1024
+    },
+    {
+      "run": 47,
+      "exact": 77,
+      "greedy": 71,
+      "gap": 6,
+      "milliseconds": 1.1133999999999986,
+      "states": 1024
+    },
+    {
+      "run": 48,
+      "exact": 61,
+      "greedy": 54,
+      "gap": 7,
+      "milliseconds": 1.3358999999999952,
+      "states": 1024
+    },
+    {
+      "run": 49,
+      "exact": 111,
+      "greedy": 111,
+      "gap": 0,
+      "milliseconds": 1.0397000000000105,
+      "states": 1024
+    },
+    {
+      "run": 50,
+      "exact": 87,
+      "greedy": 87,
+      "gap": 0,
+      "milliseconds": 0.6356999999999999,
+      "states": 1024
+    },
+    {
+      "run": 51,
+      "exact": 71,
+      "greedy": 61,
+      "gap": 10,
+      "milliseconds": 1.9591999999999956,
+      "states": 1024
+    },
+    {
+      "run": 52,
+      "exact": 117,
+      "greedy": 117,
+      "gap": 0,
+      "milliseconds": 0.9385999999999939,
+      "states": 1024
+    },
+    {
+      "run": 53,
+      "exact": 87,
+      "greedy": 77,
+      "gap": 10,
+      "milliseconds": 1.04849999999999,
+      "states": 1024
+    },
+    {
+      "run": 54,
+      "exact": 96,
+      "greedy": 96,
+      "gap": 0,
+      "milliseconds": 0.729699999999994,
+      "states": 1024
+    },
+    {
+      "run": 55,
+      "exact": 88,
+      "greedy": 83,
+      "gap": 5,
+      "milliseconds": 1.7283000000000044,
+      "states": 1024
+    },
+    {
+      "run": 56,
+      "exact": 77,
+      "greedy": 67,
+      "gap": 10,
+      "milliseconds": 1.245599999999996,
+      "states": 1024
+    },
+    {
+      "run": 57,
+      "exact": 69,
+      "greedy": 66,
+      "gap": 3,
+      "milliseconds": 1.292199999999994,
+      "states": 1024
+    },
+    {
+      "run": 58,
+      "exact": 53,
+      "greedy": 53,
+      "gap": 0,
+      "milliseconds": 0.9985999999999962,
+      "states": 1024
+    },
+    {
+      "run": 59,
+      "exact": 70,
+      "greedy": 58,
+      "gap": 12,
+      "milliseconds": 1.9472000000000094,
+      "states": 1024
+    },
+    {
+      "run": 60,
+      "exact": 67,
+      "greedy": 60,
+      "gap": 7,
+      "milliseconds": 1.3225000000000051,
+      "states": 1024
+    },
+    {
+      "run": 61,
+      "exact": 94,
+      "greedy": 84,
+      "gap": 10,
+      "milliseconds": 1.2878999999999934,
+      "states": 1024
+    },
+    {
+      "run": 62,
+      "exact": 77,
+      "greedy": 73,
+      "gap": 4,
+      "milliseconds": 1.7360000000000184,
+      "states": 1024
+    },
+    {
+      "run": 63,
+      "exact": 79,
+      "greedy": 79,
+      "gap": 0,
+      "milliseconds": 1.3601999999999919,
+      "states": 1024
+    },
+    {
+      "run": 64,
+      "exact": 97,
+      "greedy": 87,
+      "gap": 10,
+      "milliseconds": 0.8262,
+      "states": 1024
+    },
+    {
+      "run": 65,
+      "exact": 126,
+      "greedy": 122,
+      "gap": 4,
+      "milliseconds": 1.0121000000000038,
+      "states": 1024
+    },
+    {
+      "run": 66,
+      "exact": 98,
+      "greedy": 98,
+      "gap": 0,
+      "milliseconds": 2.184200000000004,
+      "states": 1024
+    },
+    {
+      "run": 67,
+      "exact": 100,
+      "greedy": 100,
+      "gap": 0,
+      "milliseconds": 1.6911999999999807,
+      "states": 1024
+    },
+    {
+      "run": 68,
+      "exact": 86,
+      "greedy": 86,
+      "gap": 0,
+      "milliseconds": 1.9165999999999883,
+      "states": 1024
+    },
+    {
+      "run": 69,
+      "exact": 84,
+      "greedy": 75,
+      "gap": 9,
+      "milliseconds": 1.8713999999999942,
+      "states": 1024
+    },
+    {
+      "run": 70,
+      "exact": 75,
+      "greedy": 72,
+      "gap": 3,
+      "milliseconds": 1.3703000000000145,
+      "states": 1024
+    },
+    {
+      "run": 71,
+      "exact": 91,
+      "greedy": 66,
+      "gap": 25,
+      "milliseconds": 1.677500000000009,
+      "states": 1024
+    },
+    {
+      "run": 72,
+      "exact": 85,
+      "greedy": 85,
+      "gap": 0,
+      "milliseconds": 1.8686999999999898,
+      "states": 1024
+    },
+    {
+      "run": 73,
+      "exact": 102,
+      "greedy": 99,
+      "gap": 3,
+      "milliseconds": 1.379400000000004,
+      "states": 1024
+    },
+    {
+      "run": 74,
+      "exact": 76,
+      "greedy": 61,
+      "gap": 15,
+      "milliseconds": 1.8409000000000049,
+      "states": 1024
+    },
+    {
+      "run": 75,
+      "exact": 103,
+      "greedy": 96,
+      "gap": 7,
+      "milliseconds": 1.063999999999993,
+      "states": 1024
+    },
+    {
+      "run": 76,
+      "exact": 73,
+      "greedy": 64,
+      "gap": 9,
+      "milliseconds": 1.8455999999999904,
+      "states": 1024
+    },
+    {
+      "run": 77,
+      "exact": 77,
+      "greedy": 77,
+      "gap": 0,
+      "milliseconds": 1.4560000000000173,
+      "states": 1024
+    },
+    {
+      "run": 78,
+      "exact": 62,
+      "greedy": 62,
+      "gap": 0,
+      "milliseconds": 0.9464000000000112,
+      "states": 1024
+    },
+    {
+      "run": 79,
+      "exact": 88,
+      "greedy": 75,
+      "gap": 13,
+      "milliseconds": 1.0947999999999922,
+      "states": 1024
+    },
+    {
+      "run": 80,
+      "exact": 134,
+      "greedy": 134,
+      "gap": 0,
+      "milliseconds": 1.0035999999999774,
+      "states": 1024
+    },
+    {
+      "run": 81,
+      "exact": 99,
+      "greedy": 99,
+      "gap": 0,
+      "milliseconds": 1.0707999999999913,
+      "states": 1024
+    },
+    {
+      "run": 82,
+      "exact": 58,
+      "greedy": 56,
+      "gap": 2,
+      "milliseconds": 1.4261999999999944,
+      "states": 1024
+    },
+    {
+      "run": 83,
+      "exact": 76,
+      "greedy": 66,
+      "gap": 10,
+      "milliseconds": 1.8303999999999974,
+      "states": 1024
+    },
+    {
+      "run": 84,
+      "exact": 65,
+      "greedy": 61,
+      "gap": 4,
+      "milliseconds": 1.3871000000000038,
+      "states": 1024
+    },
+    {
+      "run": 85,
+      "exact": 97,
+      "greedy": 97,
+      "gap": 0,
+      "milliseconds": 1.123500000000007,
+      "states": 1024
+    },
+    {
+      "run": 86,
+      "exact": 64,
+      "greedy": 64,
+      "gap": 0,
+      "milliseconds": 1.3044999999999902,
+      "states": 1024
+    },
+    {
+      "run": 87,
+      "exact": 86,
+      "greedy": 86,
+      "gap": 0,
+      "milliseconds": 0.9146000000000072,
+      "states": 1024
+    },
+    {
+      "run": 88,
+      "exact": 67,
+      "greedy": 55,
+      "gap": 12,
+      "milliseconds": 1.792599999999993,
+      "states": 1024
+    },
+    {
+      "run": 89,
+      "exact": 96,
+      "greedy": 86,
+      "gap": 10,
+      "milliseconds": 0.7276999999999987,
+      "states": 1024
+    },
+    {
+      "run": 90,
+      "exact": 121,
+      "greedy": 121,
+      "gap": 0,
+      "milliseconds": 1.1652999999999736,
+      "states": 1024
+    },
+    {
+      "run": 91,
+      "exact": 64,
+      "greedy": 57,
+      "gap": 7,
+      "milliseconds": 1.3530000000000086,
+      "states": 1024
+    },
+    {
+      "run": 92,
+      "exact": 103,
+      "greedy": 101,
+      "gap": 2,
+      "milliseconds": 0.9377000000000066,
+      "states": 1024
+    },
+    {
+      "run": 93,
+      "exact": 119,
+      "greedy": 114,
+      "gap": 5,
+      "milliseconds": 0.9716999999999985,
+      "states": 1024
+    },
+    {
+      "run": 94,
+      "exact": 71,
+      "greedy": 71,
+      "gap": 0,
+      "milliseconds": 1.1706999999999823,
+      "states": 1024
+    },
+    {
+      "run": 95,
+      "exact": 69,
+      "greedy": 66,
+      "gap": 3,
+      "milliseconds": 1.091799999999978,
+      "states": 1024
+    },
+    {
+      "run": 96,
+      "exact": 93,
+      "greedy": 92,
+      "gap": 1,
+      "milliseconds": 1.3796000000000106,
+      "states": 1024
+    },
+    {
+      "run": 97,
+      "exact": 104,
+      "greedy": 104,
+      "gap": 0,
+      "milliseconds": 0.7467000000000041,
+      "states": 1024
+    },
+    {
+      "run": 98,
+      "exact": 65,
+      "greedy": 65,
+      "gap": 0,
+      "milliseconds": 1.5511000000000195,
+      "states": 1024
+    },
+    {
+      "run": 99,
+      "exact": 79,
+      "greedy": 75,
+      "gap": 4,
+      "milliseconds": 1.497399999999999,
+      "states": 1024
+    }
+  ]
+}

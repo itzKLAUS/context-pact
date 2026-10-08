@@ -1,0 +1,28 @@
+{
+  "name": "@itzklaus/context-pact",
+  "version": "0.1.0",
+  "description": "Dependency-aware, policy-constrained context selection with exact small-set search and inspectable decisions.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "exports": {
+    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" },
+    "./verify": { "types": "./dist/verify.d.ts", "import": "./dist/verify.js" },
+    "./tokenizer": { "types": "./dist/tokenizer.d.ts", "import": "./dist/tokenizer.js" }
+  },
+  "bin": { "context-pact": "dist/cli.js" },
+  "files": ["dist", "docs", "examples", "web", "proofs", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "coverage": "npm run build && node --experimental-test-coverage --test test/*.test.mjs",
+    "demo": "npm run build && node dist/cli.js examples/incident.json --output demo-result.json",
+    "serve": "npm run build && node dist/server.js",
+    "benchmark": "npm run build && node scripts/benchmark.mjs",
+    "prepack": "npm run build"
+  },
+  "dependencies": { "gpt-tokenizer": "4.0.0" },
+  "devDependencies": { "@types/node": "26.6.4", "typescript": "7.0.2" },
+  "repository": { "type": "git", "url": "https://github.com/itzKLAUS/context-pact.git" },
+  "bugs": { "url": "https://github.com/itzKLAUS/context-pact/issues" }
+}
