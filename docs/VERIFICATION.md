@@ -10,4 +10,8 @@ Real Chromium workbench checks: complete selection at 1500 bytes; 750-byte selec
 
 `npm audit --omit=dev` reported no known advisories at this check. The reproducible 100-case selection benchmark is in benchmark.json and its exact-generator script is tracked. Its utility improvements are not measurements of model accuracy, safety or future model capability.
 
-Hosted CI and clean-package evidence are recorded after observation. No production integration or independent security review has been established.
+Hosted [CI run 37794140499](https://github.com/itzKLAUS/context-pact/actions/runs/37794140499) passed at commit `398f88237c8c07d4c62d0e2473ac0628b8730f18`: Node 22/24 on Linux and Windows, plus the pinned Lean proof check. Each Node job runs the full suite, runtime dependency audit and package build.
+
+A clean consumer directory installed the packed tarball with no project development dependencies. Its own installed core, tokenizer and independent checker compiled the example to an optimal 238-token context and agreed on its feasibility. This is separate from importing the working tree's source.
+
+No production integration or independent security review has been established.

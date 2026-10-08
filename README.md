@@ -81,6 +81,8 @@ Our original [Lean artifact](proofs/Selection.lean) checks finite maximum bounds
 
 At the initial Windows/Node 24 verification: 15 automated tests passed, including 200 generated instances compared with an independent recursive power-set oracle. Core selection, tokenizer adapter and independent checker have 100% measured line coverage; line coverage does not establish correctness of every branch. CLI, static server and real browser flows were exercised. Lean 4.19.0 accepted all four theorem declarations without `sorry`; axiom output is documented separately.
 
+All five [hosted CI jobs](https://github.com/itzKLAUS/context-pact/actions/runs/37794140499) passed: Linux/Windows on Node 22/24 plus Lean. A clean installed tarball passed core/tokenizer/checker integration. [Verification details](docs/VERIFICATION.md).
+
 On 100 seeded synthetic 10-record cases, exact robust selection improved supplied worst-case utility over a feasible dependency-closed density baseline in **65 cases**, with mean utility gap **5.15**. This measures a finite selection objective, **not LLM answer quality**. Reproduce with `npm run benchmark`; [raw results](docs/benchmark.json).
 
 ## Boundaries worth knowing
