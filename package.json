@@ -1,6 +1,6 @@
 {
   "name": "@itzklaus/context-pact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dependency-aware, policy-constrained context selection with exact small-set search and inspectable decisions.",
   "type": "module",
   "license": "MIT",

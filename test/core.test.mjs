@@ -53,6 +53,10 @@ test('real tokenizer measures selected rendered context exactly',()=>{
   const out=compile(request([item('a',2,{text:'中文 English 123 🤖'})]),cl100k);
   assert.equal(out.candidate.cost,cl100k.count(out.candidate.context));assert.equal(out.counter.unit,'tokens');
 });
+test('literal special-token spellings in quoted evidence remain ordinary text',()=>{
+  const out=compile(request([item('a',2,{text:'Quoted <|endoftext|> and <|fim_prefix|> are document text.'})]),cl100k);
+  assert.equal(out.status,'optimal');assert.deepEqual(out.candidate.ids,['a']);assert.ok(out.candidate.cost>0);
+});
 test('rejects malformed contracts, unsafe arithmetic and dangling graph references',()=>{
   for (const change of [r=>r.records.push(item('a')),r=>r.contract.budget=-1,r=>r.records[0].requires=['ghost'],r=>r.contract.mandatory=['ghost'],r=>r.records[0].score=NaN,r=>r.records[0].trust='system',r=>r.contract.scenarios=['x'],r=>r.contract.maxStates=1048577,r=>r.contract.facets=['x','x'],r=>r.records[0].text=7,r=>r.records[0].scenarioScores={x:-1},r=>r.contract.scenarios=[]]) {
     const r=request([item('a')]);change(r);assert.throws(()=>validateRequest(r));
